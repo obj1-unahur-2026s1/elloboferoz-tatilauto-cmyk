@@ -4,7 +4,7 @@ var peso = 10
  
   method peso() = peso
  
-  method esSaludable() = peso >= 20 && peso <= 150 
+  method saludable() = peso >= 20 && peso <= 150 
 
   method crisis() {
       peso = 10 
